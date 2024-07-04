@@ -2,8 +2,7 @@ name: macOS
 
 on:
  workflow dispatch:
- 
-defaults:
+   defaults:
  run:
   shell: bash
   

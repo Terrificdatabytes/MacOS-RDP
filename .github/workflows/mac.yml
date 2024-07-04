@@ -9,7 +9,6 @@ jobs:
  build:
   runs-on: macos-latest
   steps:
-  - uses: actions/checkout@v2
   - name: Setting the Environment Up.
     env:
      NGROK AUTH TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}

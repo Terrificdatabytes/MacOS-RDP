@@ -6,7 +6,6 @@ defaults:
     shell: bash
   
 Jobs:
-
  build:
   runs-on: macos-latest
   steps:
